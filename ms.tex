@@ -1,0 +1,57 @@
+\documentclass[modern]{aastex62}
+
+\include{preamble}
+
+\shorttitle{Working Title}
+\shortauthors{Bedell et al.}
+
+\setlength{\parindent}{1.4em} % trust in Hogg
+\begin{document}\sloppy\sloppypar\raggedbottom\frenchspacing % trust in Hogg
+
+\graphicspath{ {figures/} }
+\DeclareGraphicsExtensions{.pdf,.eps,.png}
+
+\title{Title}
+
+\author[0000-0001-9907-7742]{Megan Bedell}
+\affiliation{\flatiron}
+
+\correspondingauthor{Megan Bedell}
+\email{mbedell@flatironinstitute.org}
+
+
+\begin{abstract}\noindent
+\todo{to be written}
+% context
+% aims
+% methods
+% results
+\end{abstract}
+
+\keywords{
+something
+---
+science
+}
+
+\section{Introduction}
+\label{s:intro}
+
+\acknowledgements
+We thank ...
+
+\software{
+    \code{Astropy} \citep{astropy},
+    \code{IPython} \citep{ipython},
+    \code{matplotlib} \citep{matplotlib},
+    \code{numpy} \citep{numpy},
+    \code{scipy} (\url{https://www.scipy.org/}),
+}
+
+% \facility{}
+
+\clearpage
+\bibliographystyle{aasjournal}
+\bibliography{ms}
+
+\end{document}
